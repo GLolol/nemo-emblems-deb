@@ -1,21 +1,21 @@
 Source: nemo-emblems
-Section: utils
-Priority: extra
-Maintainer: Linux Mint <root@linuxmint.com>
+Section: x11
+Priority: optional
+Maintainer: Debian Cinnamon Team <pkg-cinnamon-team@lists.alioth.debian.org>
+Uploaders: James Lu <bitflip3@gmail.com>
 Build-Depends: debhelper (>= 9),
                python-all,
                python-distutils-extra,
                dh-python
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://github.com/linuxmint/nemo-extensions
 
 Package: nemo-emblems
 Architecture: all
-Section: utils
-Priority: extra
 Depends: ${python:Depends},
          ${misc:Depends},
          nemo,
-         python-nemo
-Description: Change a folder or file emblem
- Change a folder or file emblem in Nemo
+         nemo-python
+Description: Folder and file emblem support for Nemo
+ Nemo-emblems adds folder and file emblem support to Nemo, the official
+ file manager for the Cinnamon desktop.

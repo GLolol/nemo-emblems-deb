@@ -1,5 +1,18 @@
-Files: *.*
-Copyright: 2014 Linux Mint
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: nemo-emblems
+Upstream-Contact: Linux Mint Project <root@linuxmint.com>
+Source: https://github.com/linuxmint/nemo-extensions/
+
+Files: *
+Copyright: 2014-2016 Linux Mint Project <root@linuxmint.com>
+           2012-2014 Marcos Alvarez Costales
+License: GPL-3
+
+Files: debian/*
+Copyright: 2014-2016 Linux Mint Project <root@linuxmint.com>
+           2016 James Lu <bitflip3@gmail.com>
+License: GPL-3
+
 License: GPL-3
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
