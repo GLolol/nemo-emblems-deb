@@ -2,3 +2,8 @@
 
 %:
 	dh $@ --with python2
+
+override_dh_auto_clean:
+	# Remove the auto-generated .pot file so multiple builds in a row work.
+	rm -f po/nemo-emblems.pot
+	dh_auto_clean
