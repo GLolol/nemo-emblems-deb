@@ -9,13 +9,16 @@ Build-Depends: debhelper (>= 9),
                dh-python
 Standards-Version: 3.9.8
 Homepage: https://github.com/linuxmint/nemo-extensions
+Vcs-Browser: https://github.com/GLolol/nemo-emblems-deb
+Vcs-Git: https://github.com/GLolol/nemo-emblems-deb
 
 Package: nemo-emblems
 Architecture: all
 Depends: ${python:Depends},
          ${misc:Depends},
          nemo,
-         nemo-python
+         nemo-python,
+         gnome-icon-theme
 Description: Folder and file emblem support for Nemo
  Nemo-emblems adds folder and file emblem support to Nemo, the official
  file manager for the Cinnamon desktop.

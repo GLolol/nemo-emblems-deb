@@ -8,6 +8,11 @@ Copyright: 2014-2016 Linux Mint Project <root@linuxmint.com>
            2012-2014 Marcos Alvarez Costales
 License: GPL-3
 
+Files: po/*
+Copyright: 2014-2016 Linux Mint Project <root@linuxmint.com>
+           2014-2016, Rosetta Contributors and Canonical Ltd
+License: GPL-3
+
 Files: debian/*
 Copyright: 2014-2016 Linux Mint Project <root@linuxmint.com>
            2016 James Lu <bitflip3@gmail.com>
