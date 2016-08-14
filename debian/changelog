@@ -1,4 +1,11 @@
-nemo-emblems (3.0.0+sarah) sarah; urgency=medium
+nemo-emblems (3.0.1) sarah; urgency=medium
+
+  * Fixed wrong version
+  * Updated translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 14 Jun 2016 10:54:27 +0100
+
+nemo-emblems (3.0.0) sarah; urgency=medium
 
   * 3.0.0
 
@@ -51,3 +58,4 @@ nemo-emblems (0.0.1) qiana; urgency=high
   * Initial release
 
  -- Clement Lefebvre <root@linuxmint.com>  Sun, 24 Aug 2014 10:32:00 +0100
+
