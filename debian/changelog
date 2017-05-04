@@ -1,3 +1,9 @@
+nemo-emblems (3.2.3-0utopia1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- James Lu <bitflip3@gmail.com>  Wed, 03 May 2017 18:07:35 -0700
+
 nemo-emblems (3.2.3) serena; urgency=medium
 
   * l10n: Update translations
